@@ -71,9 +71,8 @@ const checkCards = (tog) => {
     }
   }
   setInterval(() => {
-    if (toggleCard.length === win) {
-      alert("You did it! You won!");
-      location.reload();
+    if (toggleCard.length == win) {
+      alert("Congratulations! You won :)");
     }
   }, delay);
 };
